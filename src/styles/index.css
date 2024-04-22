@@ -6,7 +6,7 @@
 }
 .car {
     display: flex;
-    height: 600px;
+    height: 440px;
     margin-left: 1000px;
     padding-right: 0px;
     transition: ease-in;
