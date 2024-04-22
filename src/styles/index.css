@@ -1,12 +1,59 @@
+.background {
+    background-image: url('https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/cle7iusuq0005mn08ebfbxp6v_4/public');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.car {
+    display: flex;
+    height: 600px;
+    margin-left: 1000px;
+    padding-right: 0px;
+    transition: ease-in;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.traffic-light{
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 100px 100px 0px 1000px;
+}
+.redglow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+    0px -1px 20px 0px #fff, 0 0 13px 4px #f9056b, 0px 0px 0px 0px #ff0a0a;
+  }
+  .yellowglow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+    0px -1px 20px 0px #fff, 0 0 13px 4px #daa520, 0px 0px 0px 0px #ffff00;
+  }
+  .greenglow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+    0px -1px 20px 0px #fff, 0 0 13px 4px #32612d, 0px 0px 0px 0px #90ee90;
+  }
+.light{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background: green;
+}
